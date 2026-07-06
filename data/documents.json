@@ -1,0 +1,26 @@
+[
+  {
+    "id": "doc_001",
+    "tenant_id": "tenant_001",
+    "content": "This is a normal document content.",
+    "metadata": {
+      "encoding": "UTF-8",
+      "mime_type": "application/pdf"
+    }
+  },
+  {
+    "id": "doc_002",
+    "tenant_id": "tenant_001",
+    "content": "This document contains confidential information.",
+    "metadata": {
+      "encoding": "UTF-8",
+      "mime_type": "application/msword"
+    }
+  },
+  {
+    "id": "doc_003",
+    "tenant_id": "tenant_002",
+    "content": "Too long content. Too long content. Too long content. Too long content. Too long content. Too long content. Too long content. Too long content. Too long content. Too long content.",
+    "metadata": {}
+  }
+]

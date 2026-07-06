@@ -1,0 +1,45 @@
+[
+  {
+    "tenant_id": "tenant_001",
+    "rule": "max_size",
+    "parameters": {
+      "value": 1000
+    }
+  },
+  {
+    "tenant_id": "tenant_001",
+    "rule": "required_metadata",
+    "parameters": {
+      "value": [
+        "encoding",
+        "mime_type"
+      ]
+    }
+  },
+  {
+    "tenant_id": "tenant_001",
+    "rule": "prohibited_terms",
+    "parameters": {
+      "value": [
+        "confidential",
+        "secret"
+      ]
+    }
+  },
+  {
+    "tenant_id": "tenant_002",
+    "rule": "max_size",
+    "parameters": {
+      "value": 100
+    }
+  },
+  {
+    "tenant_id": "tenant_002",
+    "rule": "required_metadata",
+    "parameters": {
+      "value": [
+        "mime_type"
+      ]
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "tenant_001",
+    "name": "First Tenant"
+  },
+  {
+    "id": "tenant_002",
+    "name": "Second Tenant"
+  }
+]

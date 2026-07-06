@@ -1,0 +1,13 @@
+# Composer
+/vendor/
+composer.phar
+
+# PHPUnit
+.phpunit.result.cache
+.phpunit.cache/
+
+# IDEs
+/.idea/
+
+# Phpstan
+phpstan.neon
